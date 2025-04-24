@@ -12,13 +12,15 @@ public class Carro {
     }
     public void mostrarInformacion() {
         System.out.println("Marca: " + marca);
-        System.out.println("Precio: " + precio);
-        System.out.println("modelo: " + modelo + " años");
+        System.out.println("modelo: " + modelo);
         System.out.println("Placa" + placa);
+        System.out.println("Precio: " + precio);
+
         System.out.println("--------------------");
     }
 
    public void frenar(){
        System.out.println("El carro a frenado con exito");
+       //Hola acabamos
     }
 }

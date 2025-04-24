@@ -5,10 +5,10 @@ public class Carro {
     public String placa;
 
     public Carro(String marca, double precio, String modelo, String placa){
-        this.marca=marca;
-        this.precio=precio;
-        this.modelo=modelo;
-        this.placa=placa;
+        this.marca = marca;
+        this.precio = precio;
+        this.modelo = modelo;
+        this.placa=  placa;
     }
     public void mostrarInformacion() {
         System.out.println("Marca: " + marca);

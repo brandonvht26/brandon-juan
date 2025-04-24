@@ -21,6 +21,7 @@ public class Main {
         String modelo = sc.nextLine();
         System.out.print("Ingrese el valor del vehiculo: ");
         double precio = sc.nextDouble();
+        sc.nextLine();
         System.out.print("\n¡Registro exitoso!\n");
 
         Carro car = new Carro(marca, precio, modelo, placa);
@@ -33,6 +34,7 @@ public class Main {
         modelo = sc.nextLine();
         System.out.print("Ingrese el valor del vehiculo: ");
         precio = sc.nextDouble();
+        sc.nextLine();
         System.out.print("\n¡Registro exitoso!\n");
 
         Carro car2 = new Carro(marca, precio, modelo, placa);
@@ -45,6 +47,7 @@ public class Main {
         modelo = sc.nextLine();
         System.out.print("Ingrese el valor del vehiculo: ");
         precio = sc.nextDouble();
+        sc.nextLine();
         System.out.print("\n¡Registro exitoso!\n");
 
         Carro car3 = new Carro(marca, precio, modelo, placa);
@@ -54,6 +57,8 @@ public class Main {
         car.mostrarInformacion();
         car2.mostrarInformacion();
         car3.mostrarInformacion();
+
+        frenar();
 
         sc.close();
     }

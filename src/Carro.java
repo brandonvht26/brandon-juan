@@ -14,12 +14,12 @@ public class Carro {
         System.out.println("Marca: " + marca);
         System.out.println("modelo: " + modelo);
         System.out.println("Placa" + placa);
-        System.out.println("Precio: " + precio);
+        System.out.println("Precio: " +  String.format("%.2f", precio) + "$\n");
 
         System.out.println("--------------------");
     }
 
    public void frenar(){
-       System.out.println("\n*FRENAR*\n\nEl carro a frenado con exito\n");
+       System.out.print("\n*FRENAR*\n\nEl carro a frenado con exito\n");
     }
 }

@@ -58,7 +58,9 @@ public class Main {
         car2.mostrarInformacion();
         car3.mostrarInformacion();
 
-        frenar();
+        car.frenar();
+        car2.frenar();
+        car3.frenar();
 
         sc.close();
     }

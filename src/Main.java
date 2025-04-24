@@ -20,14 +20,40 @@ public class Main {
         System.out.print("Ingrese la placa del vehiculo: ");
         String modelo = sc.nextLine();
         System.out.print("Ingrese el valor del vehiculo: ");
-        double valor = sc.nextDouble();
-        System.out.print("\n---------------- ¡Registro exitoso! ----------------\n");
+        double precio = sc.nextDouble();
+        System.out.print("\n¡Registro exitoso!\n");
 
-        car.Carro(marca, precio, modelo, placa);
+        Carro car = new Carro(marca, precio, modelo, placa);
+
+        System.out.print("\nIngrese la marca del vehiculo: ");
+        marca = sc.nextLine();
+        System.out.print("Ingrese el modelo del vehiculo: ");
+        placa = sc.nextLine();
+        System.out.print("Ingrese la placa del vehiculo: ");
+        modelo = sc.nextLine();
+        System.out.print("Ingrese el valor del vehiculo: ");
+        precio = sc.nextDouble();
+        System.out.print("\n¡Registro exitoso!\n");
+
+        Carro car2 = new Carro(marca, precio, modelo, placa);
+
+        System.out.print("\nIngrese la marca del vehiculo: ");
+        marca = sc.nextLine();
+        System.out.print("Ingrese el modelo del vehiculo: ");
+        placa = sc.nextLine();
+        System.out.print("Ingrese la placa del vehiculo: ");
+        modelo = sc.nextLine();
+        System.out.print("Ingrese el valor del vehiculo: ");
+        precio = sc.nextDouble();
+        System.out.print("\n¡Registro exitoso!\n");
+
+        Carro car3 = new Carro(marca, precio, modelo, placa);
 
         // Metodos
 
         car.mostrarInformacion();
+        car2.mostrarInformacion();
+        car3.mostrarInformacion();
 
         sc.close();
     }

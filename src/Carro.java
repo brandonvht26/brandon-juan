@@ -18,8 +18,7 @@ public class Carro {
         System.out.println("--------------------");
     }
 
-   /* public void frenar(){
-
-    }*/
-
+   public void frenar(){
+       System.out.println("El carro a frenado con exito");
+    }
 }

@@ -20,7 +20,7 @@ public class Main {
         System.out.print("Ingrese la placa del vehiculo: ");
         String modelo = sc.nextLine();
         System.out.print("Ingrese el valor del vehiculo: ");
-        double valor = sc.nextDouble();
+        double precio = sc.nextDouble();
         System.out.print("\n---------------- ¡Registro exitoso! ----------------\n");
 
         car.Carro(marca, precio, modelo, placa);

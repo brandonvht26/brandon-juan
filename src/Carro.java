@@ -20,6 +20,6 @@ public class Carro {
     }
 
    public void frenar(){
-       System.out.println("\n*FRENAR*\n\nEl carro" + marca +" "+ modelo " a frenado con exito\n");
+       System.out.println("\n*FRENAR*\n\nEl carro a frenado con exito\n");
     }
 }

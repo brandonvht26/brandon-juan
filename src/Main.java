@@ -16,9 +16,9 @@ public class Main {
         System.out.print("\nIngrese la marca del vehiculo: ");
         String marca = sc.nextLine();
         System.out.print("Ingrese el modelo del vehiculo: ");
-        String placa = sc.nextLine();
-        System.out.print("Ingrese la placa del vehiculo: ");
         String modelo = sc.nextLine();
+        System.out.print("Ingrese la placa del vehiculo: ");
+        String placa = sc.nextLine();
         System.out.print("Ingrese el valor del vehiculo: ");
         double precio = sc.nextDouble();
         sc.nextLine();
@@ -29,9 +29,9 @@ public class Main {
         System.out.print("\nIngrese la marca del vehiculo: ");
         marca = sc.nextLine();
         System.out.print("Ingrese el modelo del vehiculo: ");
-        placa = sc.nextLine();
-        System.out.print("Ingrese la placa del vehiculo: ");
         modelo = sc.nextLine();
+        System.out.print("Ingrese la placa del vehiculo: ");
+        placa = sc.nextLine();
         System.out.print("Ingrese el valor del vehiculo: ");
         precio = sc.nextDouble();
         sc.nextLine();
@@ -42,9 +42,9 @@ public class Main {
         System.out.print("\nIngrese la marca del vehiculo: ");
         marca = sc.nextLine();
         System.out.print("Ingrese el modelo del vehiculo: ");
-        placa = sc.nextLine();
-        System.out.print("Ingrese la placa del vehiculo: ");
         modelo = sc.nextLine();
+        System.out.print("Ingrese la placa del vehiculo: ");
+        placa = sc.nextLine();
         System.out.print("Ingrese el valor del vehiculo: ");
         precio = sc.nextDouble();
         sc.nextLine();
